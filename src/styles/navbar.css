@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Forma Light";
+  src: url("../static/forma-light.ttf");
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Forma Light";
+  color: rgb(105, 105, 105);
+  background-color: white;
+  height: 15vh;
+  width: 100vw;
+}
+
+.navbar-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+}
+
+.navbar-logo img {
+  width: 100%;
+  height: 100%;
+  margin-right: 10px;
+}
+.navbar-group {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 0.3s ease-in;
+}
+
+.navbar-group > * {
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.navbar-group > *:hover {
+  cursor: pointer;
+  color: #acded7;
+}
+
+.navbar-group > *:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #acded7;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.navbar-group > *:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-group {
+    width: 50%;
+    font-size: 0.8em;
+  }
+  .navbar-group h1 {
+    padding: 0px;
+  }
+
+  .navbar-logo {
+    display: none;
+  }
+}
