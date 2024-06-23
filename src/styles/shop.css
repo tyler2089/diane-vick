@@ -1,0 +1,59 @@
+:root {
+  --controlled-border-radius: 10px;
+}
+
+.shop-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100vw;
+  font-family: "Forma Light";
+  letter-spacing: 0.15em;
+  margin-top: 10vh;
+}
+
+.product-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 10px;
+  border-radius: var(--controlled-border-radius);
+  box-shadow: 0 0 10px 0 rgb(131, 131, 131);
+  cursor: pointer;
+}
+
+.product-price,
+.product-quantity {
+  color: rgba(85, 85, 85, 0.6);
+}
+
+.product-image {
+  width: 30vw;
+  height: 30vw;
+  border-radius: var(--controlled-border-radius) var(--controlled-border-radius)
+    0 0;
+  background-size: cover; /* Cover the entire area without losing aspect ratio */
+  background-position: center;
+}
+
+.product-name {
+  text-align: center;
+  font-size: 1.5em;
+  width: 70%;
+}
+@media screen and (max-width: 768px) {
+  .shop-container {
+    margin-top: 2vh;
+  }
+  .product-tab {
+    width: 90%;
+  }
+
+  .product-image {
+    width: 90vw;
+    height: 90vw;
+  }
+}
