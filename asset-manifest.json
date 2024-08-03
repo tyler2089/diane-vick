@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/diane-vick/static/css/main.89637b72.css",
-    "main.js": "/diane-vick/static/js/main.d94e171f.js",
+    "main.css": "/diane-vick/static/css/main.579e71ab.css",
+    "main.js": "/diane-vick/static/js/main.afcd9e6b.js",
     "static/js/453.419a5d54.chunk.js": "/diane-vick/static/js/453.419a5d54.chunk.js",
-    "static/media/opening-image.jpg": "/diane-vick/static/media/opening-image.58a1b04aa22f0ddb25ff.jpg",
+    "static/media/pillow-image.jpg": "/diane-vick/static/media/pillow-image.7c57e58450f06f126da9.jpg",
+    "static/media/blanket-image.jpg": "/diane-vick/static/media/blanket-image.6c333bb2c8d21e4155ec.jpg",
+    "static/media/aboutus-image2.jpg": "/diane-vick/static/media/aboutus-image2.58a1b04aa22f0ddb25ff.jpg",
+    "static/media/travel-pillow-image.jpg": "/diane-vick/static/media/travel-pillow-image.19e4f8c9b39f1fe67e73.jpg",
+    "static/media/pocket-pillow-image.jpg": "/diane-vick/static/media/pocket-pillow-image.6338c8669ea4dc11f7b6.jpg",
+    "static/media/aboutus-image1.jpg": "/diane-vick/static/media/aboutus-image1.4fe6a4f8d8c6b94ce487.jpg",
+    "static/media/opening-image.jpg": "/diane-vick/static/media/opening-image.490c84c020dc008392b6.jpg",
     "static/media/forma-light.ttf": "/diane-vick/static/media/forma-light.d7d6e8ae5f32dfc7e449.ttf",
     "index.html": "/diane-vick/index.html",
-    "main.89637b72.css.map": "/diane-vick/static/css/main.89637b72.css.map",
-    "main.d94e171f.js.map": "/diane-vick/static/js/main.d94e171f.js.map",
+    "main.579e71ab.css.map": "/diane-vick/static/css/main.579e71ab.css.map",
+    "main.afcd9e6b.js.map": "/diane-vick/static/js/main.afcd9e6b.js.map",
     "453.419a5d54.chunk.js.map": "/diane-vick/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89637b72.css",
-    "static/js/main.d94e171f.js"
+    "static/css/main.579e71ab.css",
+    "static/js/main.afcd9e6b.js"
   ]
 }
